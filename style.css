@@ -1,0 +1,142 @@
+            * {
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: gray;
+            }
+            
+            .container {
+                width: 600px;
+                height: 600px;
+                background-color: white;
+                box-sizing: border-box;
+                float: left;
+                margin-top: 10px;
+                margin-right: 20px;
+                box-shadow: 4px 5px 15px black;
+            }
+            
+            .fixed {
+                width: 400px;
+                height: 500px;
+                background-color: white;
+                float: left;
+                margin-top: 10px;
+                box-shadow: 4px 5px 15px black;
+            }
+            
+            .img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                box-shadow: 4px 5px 16px black;
+            }
+            
+            .card_img {
+                width: 50%;
+                text-align: center;
+                box-shadow: 4px 5px 15px black;
+                margin-top: 10px;
+                padding: 10px;
+                float: left;
+            }
+            
+            .card_title {
+                float: left;
+                margin-top: 10px;
+                margin-left: 50px;
+            }
+            
+            h3 {
+                font-size: 1.2rem;
+                color: rgb(31, 42, 52);
+                padding: 6px;
+            }
+            
+            .price {
+                color: red;
+            }
+            
+            .icon {
+                color: black;
+                font-size: 1.2rem;
+                cursor: pointer;
+                transition: ;
+                background: 0.5s;
+                -webkit-transition: ;
+                -moz-transition: ;
+                -ms-transition: ;
+                -o-transition: ;
+                background-color: white -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+            
+            .icon:hover {
+                background-color: rgb(149, 231, 224);
+                color: rgb(15, 17, 16);
+            }
+            
+            .input {
+                width: 60px;
+                background-color: rgb(216, 184, 68);
+                color: black;
+                border-radius: 30%;
+                -webkit-border-radius: 30%;
+                -moz-border-radius: 30%;
+                -ms-border-radius: 30%;
+                -o-border-radius: 30%;
+                box-shadow: 4px 5px 15px black;
+                font-size: 1.2rem;
+            }
+            
+            .clear {
+                clear: both;
+            }
+            
+            .hr-style {
+                border: 2px solid gray;
+                border-bottom: 20px;
+                margin-top: 20px;
+            }
+            
+            .total {
+                text-align: center;
+                color: rgb(23, 177, 219);
+            }
+            
+            h3 {
+                padding: 20px;
+            }
+            
+            .kupon {
+                text-align: center;
+                color: rgb(36, 151, 50);
+            }
+            
+            .code {
+                text-align: center;
+                color: rgb(238, 13, 13);
+                font-size: 0.8rem;
+            }
+            
+            .kupon-input {
+                width: 30%;
+                padding: 5px;
+                margin-left: 10px;
+                margin-top: 5px;
+            }
+            
+            .apply {
+                background-color: rgb(222, 171, 42);
+                color: black;
+                font-size: 1.0rem;
+            }
